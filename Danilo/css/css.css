@@ -1,0 +1,486 @@
+@font-face {font-family: poppins;src: url(../fonte/Poppins/Poppins-Regular.ttf);}
+@font-face {font-family: poppins-bold;src: url(../fonte/Poppins/Poppins-Bold.ttf);}
+@font-face {font-family: poppins-italic;src: url(../fonte/Poppins/poppins.italic.ttf);}
+
+    
+body {background-color: #eaeaea;}
+
+
+
+.barra-termo1 {background-color: #032b43;
+                width: 200px;
+                 height: 2160px;        
+                 left: 0px;
+                 top: 0px;
+                position: absolute;}      
+
+ul {margin: 0;
+    font-size: 20px;
+    padding: 0px;
+    list-style: none;
+    width: 150px;
+    position: fixed;}
+
+ul li {position: relative;
+        left: 5px;
+        margin-top: 2px;}
+
+li ul  {position: absolute;
+        left: 169px;
+        top: 0;
+        display: none;}
+
+ul li a {display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #ffffff;
+        background: #054269;
+        padding: 10px;
+        width: 200px;
+        border: 10px white;
+        border-radius: 0%;
+        font-family: poppins;} 
+         
+ul li ul {position: relative;
+          left: -5px;}
+
+li:hover ul { display: block;}
+
+ul li a:hover{font-weight: bold;
+              background: #1a5e84; }             
+
+.Logo-Dann {position: fixed;
+            width: 110px;
+            left: 68px;
+            margin-top: 830px;}
+              
+
+.rodapé-inicial {background-color: #021823;
+        position: absolute;
+        bottom: -270px;
+        width: 1585px;
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        font-family: poppins;
+        line-height: 5px;
+        left: 260px;}
+
+.rodapé-1termo {background-color: #021823;
+        position: absolute;
+        bottom: -1250px;
+        width: 1585px;
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        font-family: poppins;
+        line-height: 5px;
+        left: 260px;}
+
+.rodapé-2termo {background-color: #021823;
+        position: absolute;
+        bottom: -2100px;
+        width: 1585px;
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        font-family: poppins;
+        line-height: 5px;
+        left: 260px;}
+
+.rodapé-3termo {background-color: #021823;
+        position: absolute;
+        bottom: -1270px;
+        width: 1585px;
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        font-family: poppins;
+        line-height: 5px;
+        left: 260px;}
+
+.rodapé-sobremim {background-color: #021823;
+        position: absolute;
+        bottom: -270px;
+        width: 1585px;
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        font-family: poppins;
+        line-height: 5px;
+        left: 260px;}
+
+.barrav {background-color: #032b43;
+        width: 250px;
+         height: 1080px;        
+         left: 0px;
+         top: 0px;
+        position:fixed;}
+
+
+
+
+a {width: 30px;}
+
+.oceano {position: absolute;
+         width: 1637px;
+        left: 257px;}
+
+.título-inicial {color: #0f1c2d;
+    font-size: 60px;
+    font-family: poppins-bold;
+    text-align: left;
+    margin-top: 730px;
+    left: 1400px;
+    position: absolute;
+    width: 200px;
+    line-height: 70px;}
+
+
+
+.logotipo {position: absolute;
+           width: 300px;
+           left: 220px;
+           margin-top: 700px;
+           transition: all 0.2s; cursor: pointer;}
+           .logotipo:hover {transform: scale(1.2);}
+
+.embalagem {position: absolute;
+           width: 300px;
+           left: 470px;
+           margin-top: 700px;
+           transition: all 0.2s; cursor: pointer;}
+           .embalagem:hover {transform: scale(1.2);}
+
+.produções {position: absolute;
+           width: 300px;
+           left: 715px;
+           margin-top: 700px;
+           transition: all 0.2s; cursor: pointer;}
+           .produções:hover {transform: scale(1.2);}
+
+.vídeo {position: absolute;
+           width: 300px;
+           left: 970px;
+           margin-top: 700px;
+           transition: all 0.2s; cursor: pointer;}
+           .vídeo:hover {transform: scale(1.2);}
+
+
+
+
+
+.título {color: #0f1c2d;
+        font-size: 60px;
+        font-family: poppins-bold;
+        text-align: left;
+        margin-top: 20px;
+        left: 300px;
+        position: absolute;
+        width: 400px;
+        line-height: 70px;}
+
+
+
+.ADIAR {position: absolute;
+        width: 700px;
+        left: 300px;
+        margin-top: 100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+           .ADIAR:hover {transform: scale(1.005);}
+           .ADIAR{transition: all 1s;cursor: pointer;}
+           .ADIAR:hover{filter: blur(0px);}
+
+.texto-ADIAR {position: absolute;
+                color: #0f1c2d;
+                font-size: 15px;
+                font-family: poppins-italic;
+                text-align: center;
+                margin-top: 490px;
+                left: 300px;
+                position: absolute;
+                width: 700px;
+                line-height: 70px;}
+
+
+.Sirigaya {position: absolute;
+        width: 700px;
+        left: 300px;
+        margin-top: 580px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+           .Sirigaya:hover {transform: scale(1.005);}
+           .Sirigaya{transition: all 1s;cursor: pointer;}
+           .Sirigaya:hover{filter: blur(0px);}
+
+.texto-Sirigaya {position: absolute;
+                color: #0f1c2d;
+                font-size: 15px;
+                font-family: poppins-italic;
+                text-align: center;
+                margin-top: 1025px;
+                left: 420px;
+                position: absolute;
+                width: 450px;
+                line-height: 15px;}
+
+.AuraNova {position: absolute;
+        width: 1100px;
+        left: 750px;
+        margin-top: 1100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .AuraNova:hover {transform: scale(1.005);}
+        .AuraNova{transition: all 1s;cursor: pointer;}
+        .AuraNova:hover{filter: blur(0px);}
+
+.Aroma {position: absolute;
+        width: 550px;
+        left: 300px;
+        margin-top: 1100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Aroma:hover {transform: scale(1.005);}
+        .Aroma{transition: all 1s;cursor: pointer;}
+        .Aroma:hover{filter: blur(0px);}        
+
+.texto-AuraNova {position: absolute;
+                color: #0f1c2d;
+                font-size: 15px;
+                font-family: poppins-italic;
+                text-align: center;
+                margin-top: 1895px;
+                left: 550px;
+                position: absolute;
+                width: 1000px;
+                line-height: 15px;}
+
+.Veganildo {position: absolute;
+        width: 800px;
+        left: 1050px;
+        margin-top: 100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Veganildo:hover {transform: scale(1.005);}
+        .Veganildo{transition: all 1s;cursor: pointer;}
+        .Veganildo:hover{filter: blur(0px);}
+
+.texto-Veganildo {position: absolute;
+                color: #0f1c2d;
+                font-size: 15px;
+                font-family: poppins-italic;
+                text-align: center;
+                margin-top: 310px;
+                left: 1220px;
+                position: absolute;
+                width: 450px;
+                line-height: 15px;}
+
+.Calendário {position: absolute;
+        width: 800px;
+        left: 1050px;
+        margin-top: 360px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Calendário:hover {transform: scale(1.005);}
+        .Calendário{transition: all 1s;cursor: pointer;}
+        .Calendário:hover{filter: blur(0px);}
+
+.texto-Calendário {position: absolute;
+                color: #0f1c2d;
+                font-size: 15px;
+                font-family: poppins-italic;
+                text-align: center;
+                margin-top: 950px;
+                left: 1220px;
+                position: absolute;
+                width: 450px;
+                line-height: 15px;}
+
+
+
+                
+.Dann-Abade {position: absolute;
+        width: 1000px;
+        left: 300px;
+        margin-top: 100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;;}
+        .Dann-Abade:hover {transform: scale(1.005);}
+        .Dann-Abade{transition: all 1s;cursor: pointer;}
+        .Dann-Abade:hover{filter: blur(0px);}
+
+.texto-Dann-Abade {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 865px;
+        left: 550px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+        
+.Prija {position: absolute;
+        width: 500px;
+        left: 1350px;
+        margin-top: 100px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Prija:hover {transform: scale(1.005);}
+        .Prija{transition: all 1s;cursor: pointer;}
+        .Prija:hover{filter: blur(0px);}
+
+.texto-Prija {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 450px;
+        left: 1360px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+        
+.Manjar {position: absolute;
+        width: 500px;
+        left: 1350px;
+        margin-top: 530px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Manjar:hover {transform: scale(1.005);}
+        .Manjar{transition: all 1s;cursor: pointer;}
+        .Manjar:hover{filter: blur(0px);}
+
+.texto-Manjar {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 780px;
+        left: 1375px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+
+.Gutinho {position: absolute;
+        width: 738px;
+        left: 300px;
+        margin-top: 1000px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Gutinho:hover {transform: scale(1.005);}
+        .Gutinho{transition: all 1s;cursor: pointer;}
+        .Gutinho:hover{filter: blur(0px);}
+
+.texto-Gutinho {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 1555px;
+        left: 450px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+
+.SCIO {position: absolute;
+        width: 760px;
+        left: 1100px;
+        margin-top: 1000px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .SCIO:hover {transform: scale(1.005);}
+        .SCIO{transition: all 1s;cursor: pointer;}
+        .SCIO:hover{filter: blur(0px);}
+
+.texto-SCIO {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 1555px;
+        left: 1250px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+
+.Cultura-Negra {position: absolute;
+        width: 1540px;
+        left: 300px;
+        margin-top: 1700px;
+        filter: blur(10px);
+        transition: all 0.1s; cursor: pointer;}
+        .Cultura-Negra:hover {transform: scale(1.005);}
+        .Cultura-Negra{transition: all 1s;cursor: pointer;}
+        .Cultura-Negra:hover{filter: blur(0px);}
+
+.texto-Cultura-Negra {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 2715px;
+        left: 800px;
+        position: absolute;
+        width: 550px;
+        line-height: 15px;}
+
+
+
+.MonstrosSA {position: absolute;
+        width: 1540px;
+        height: 867px;
+        left: 300px;
+        margin-top: 100px;}
+
+.texto-MonstrosSA {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 980px;
+        left: 880px;
+        position: absolute;
+        width: 450px;
+        line-height: 15px;}
+
+.Comercial {position: absolute;
+        width: 1540px;
+        height: 867px;
+        left: 300px;
+        margin-top: 1050px;}
+
+.texto-Comercial {position: absolute;
+        color: #0f1c2d;
+        font-size: 15px;
+        font-family: poppins-italic;
+        text-align: center;
+        margin-top: 1935px;
+        left: 830px;
+        position: absolute;
+        width: 500px;
+        line-height: 15px;}
+
+
+.Foto-Perfil {position: absolute;
+        width: 1240px;
+        left: 300px;
+        margin-top: 250px;}
+
+.texto-Foto-Perfil {position: absolute;
+        color: #0f1c2d;
+        font-size: 20px;
+        font-family: poppins;
+        text-align: justify;
+        margin-top: 100px;
+        left: 300px;
+        position: absolute;
+        width: 1400px;
+        line-height: 25px;}
